@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:hive/hive.dart';
 import 'package:injectable/injectable.dart';
 
@@ -23,6 +24,16 @@ class PreferencesStorage {
   }
 
   List<int> getSelectedMenuItems() {
-    return _appPreferences.get(_keySelectedMenuItems, defaultValue: []);
+    try {
+      final List<dynamic> rawList = _appPreferences.get(_keySelectedMenuItems, defaultValue: []);
+      final List<int> intList = rawList.cast<int>();
+
+      return intList;
+    } catch (e) {
+      if (kDebugMode) {
+        print(e);
+      }
+      rethrow;
+    }
   }
 }
