@@ -31,3 +31,5 @@ The Diamonds Store App is a mobile application designed to help users explore a 
 
 - A shimmer effect is displayed while the images are loading, enhancing the user experience.
 - Extra Point: Images are cached to improve loading performance.
+
+https://github.com/opimand/diamonds-app/assets/22457340/73ee3ad8-f0cc-4131-bea1-88b49337b0ba
