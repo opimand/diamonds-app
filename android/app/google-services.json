@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425500618051",
+    "project_id": "diamonds-flutter",
+    "storage_bucket": "diamonds-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425500618051:android:285871160b9e0f6fb2d3f6",
+        "android_client_info": {
+          "package_name": "com.example.diamonds.diamonds"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxjIx-exTXKtV8MtQCE2Bdn8oKCwj8ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
